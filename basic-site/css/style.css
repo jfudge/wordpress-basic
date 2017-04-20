@@ -1,0 +1,84 @@
+/* 
+Theme Name: Basic Site
+Description: Basic Site
+Version 1
+Author Jamie Fudge 
+ */
+
+
+body {
+	background-color:#1e2729;
+	margin:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+#page {
+	width:960px;
+	background-color:white;
+	color:#1e2729;
+	margin:auto;
+}
+#header{
+	background-color:#c1d9c5;
+	color:#405952;
+	padding:55px;
+}
+#header h1{
+	margin:0;
+	font-size:72px;
+	font-weight:normal;
+}
+#nav {
+	background-color:#405952;
+	color:white;
+	overflow:hidden;
+	padding:0 27px 0 27px;
+}
+#nav a {
+	font-size:22px;
+	color:white;
+	text-decoration:none;
+	display:block;
+	float:left;
+	padding:40px 27px 40px 27px;
+}
+#nav li{
+	list-style: none;
+}
+#nav a:hover {
+	background-color:#2d443e;
+}
+ul, ul li{
+	list-style: none;
+}
+#main {
+	overflow:hidden;
+}
+#content {
+	float:left;
+	width:485px;
+	font-size:14px;
+	padding:55px;
+	line-height:27px;
+}
+#content h1{
+	color:#756953;
+	font-weight:normal;
+	font-size:32px;
+	margin-top:0;
+}
+#sidebar {
+	float:right;
+	width:275px;
+	padding:40px;
+	background-color:#913420;
+	color:white;
+	font-size:13px;
+	line-height:21px;
+	margin-top:45px; margin-bottom:45px;
+	
+}
+#sidebar h2 {
+	margin-top:0;
+	font-weight:normal;
+	font-size:27px;
+}
